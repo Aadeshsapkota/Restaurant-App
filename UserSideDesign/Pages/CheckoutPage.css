@@ -1,0 +1,109 @@
+
+p{
+  margin: 10px;
+  padding: 10px;
+}
+
+.checkout-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 60px;
+  margin-left: 100px;
+  
+  
+
+}
+.review-container{
+  display: flex;
+  width: 100%;
+}
+.review-title{
+  font-size: 50px;
+  font-family: 'Instrument Sans';
+}
+.review-card-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-card{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  display: flex;
+   gap: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.item-img{
+  height: 300px;
+  border-radius: 30px;
+  
+}
+
+.review-right-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 55px;
+  width: 450px;
+}
+.review-right-section div{
+  padding: 10px 20px;
+}
+.payment-summary{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+
+}
+/* Payment Summary Card */
+.payment-summary-card{
+  display: flex;
+  padding: 30px 50px;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  height: 570px;
+  width: 900px;
+  font-size: 60px;
+  box-shadow: 0px 12px 30px rgba(0,0,0,0.1);
+  font-size: 50px;
+  
+}
+
+.payment-section{
+  font-size: 80px;
+  font-weight: 500;
+}
+.metadata-section{
+  width: 100%;
+  margin-top: 30px;
+  font-weight: 450;
+}
+.metadata-section div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+}
+.button-section{
+  margin-top: 30px;
+}
+.order-btn{
+  font-size: 40px;
+  padding: 30px 50px;
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+}
+
