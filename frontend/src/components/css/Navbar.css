@@ -1,5 +1,3 @@
-
-
 .Navbar {
   display: flex;
   position: sticky;
@@ -15,7 +13,7 @@
 
 .title {
   margin: 0px 0px 0px 35px;
-  font-size: 56px; 
+  font-size: 56px;
   font-family: "Irish Grover";
 }
 
@@ -69,29 +67,19 @@
   height: 60px;
 }
 
-/* Footer */
-.footer{
-
-  display: flex;
-  padding-left:5px ;
-  padding-right: 5px;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
+.login-btn {
+  padding: 15px 30px;
+  font-size: 30px;
+  border-radius: 18px;
   background-color: white;
-  font-size: 23px;
-  font-weight: 600;
-  border: 4px solid aqua;
-  padding: 40px;
-  width: 96%;
+  border: 4px solid black;
+  font-weight: 500;
 }
-
-.company-name{
-  font-family: "Irish Grover";
-
-}
-.section5{
-  display: flex;
-  flex-direction: column;
-  gap: 3%;
+.signup-btn {
+  padding: 15px 30px;
+  font-size: 30px;
+  border-radius: 18px;
+  background-color: white;
+  border: 4px solid black;
+  font-weight: 500;
 }
